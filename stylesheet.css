@@ -29,7 +29,18 @@ footer{
     margin: 15px 10%;
 }
 
+.showoffEdit{
+    padding: 0px 100px;
+}
+
 .customSection{
+    border-radius: 15px;
+    background-color: rgb(57, 61, 68);
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+.customSectionName{
     border-radius: 15px;
     background-color: rgb(57, 61, 68);
     padding-top: 15px;
@@ -87,6 +98,15 @@ footer{
 .thumbnails{
     border: 10px, aliceblue, solid;
     border-radius: 30px;
+}
+
+.displayImages{
+    border: none;
+    border-radius: 30px;
+    padding: 10px; /* thickness of the gradient border */
+    overflow: hidden; /* ensure inner content follows the radius */
+    background: linear-gradient(90deg, rgba(84, 0, 133, 1) 0%, rgba(0, 141, 145, 1) 51%, rgba(51, 38, 133, 1) 100%) border-box;
+    margin-bottom: 20px;
 }
 
 .aboutContent{
