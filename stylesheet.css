@@ -10,10 +10,8 @@ body {
 footer{
     background-color: rgb(29, 31, 34);
     padding: 15px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
+    margin-top: auto; /* push footer to bottom when using flex column layout */
 }
 
 .customNavColor, .divider{
@@ -93,7 +91,7 @@ footer{
 
 .aboutContent{
     padding: 40px;
-    margin-bottom: 210px;
+    margin-bottom: 0;
 }
 
 .portraitEdit{
