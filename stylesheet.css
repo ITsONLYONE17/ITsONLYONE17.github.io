@@ -1,0 +1,108 @@
+body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* Full viewport height */
+    background-color: rgb(39, 42, 48);
+    color: aliceblue;
+    font-size: large;
+}
+
+footer{
+    background-color: rgb(29, 31, 34);
+    padding: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.customNavColor, .divider{
+    background: linear-gradient(90deg,rgba(84, 0, 133, 1) 0%, rgba(0, 141, 145, 1) 51%, rgba(51, 38, 133, 1) 100%);
+}
+
+.navFont{
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.divider{
+    height: 10px;
+    border-radius: 15px;
+    margin: 15px 10%;
+}
+
+.customSection{
+    border-radius: 15px;
+    background-color: rgb(57, 61, 68);
+    padding-top: 15px;
+}
+
+.title_Header{
+    margin-top: 30px;
+}
+
+.left_Align{
+    text-align: left;
+}
+
+.center_Align{
+    text-align: center;
+}
+
+.right_Align{
+    text-align: right;
+}
+
+.name{
+    font-family: TechnoCharm;
+    font-size: 75px;
+}
+
+.subtitle{
+    font-family: TechnoCharm;
+    font-size: 50px;
+}
+
+@font-face {
+    font-family: TechnoCharm;
+    src: url(Fonts/techno-charm-version-font/TechnoCharmDemoVersionRegular-ALaZm.otf);
+}
+
+.handSection{
+    padding: 30px;
+    border: 5px, rgb(136, 131, 65), outset;
+    background-color: rgb(85, 81, 29);
+}
+
+.cafeSection{
+    padding: 30px;
+    border: 5px, rgb(66, 26, 70), outset;
+    background-color: rgb(115, 54, 121);
+}
+
+.caveSection{
+    padding: 30px;
+    border: 5px, rgb(18, 57, 66), outset;
+    background-color: rgb(37, 85, 97);
+}
+
+.thumbnails{
+    border: 10px, aliceblue, solid;
+    border-radius: 30px;
+}
+
+.aboutContent{
+    padding: 40px;
+    margin-bottom: 210px;
+}
+
+.portraitEdit{
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.LinkdIn_Icon {
+    padding-top: 5px;
+    width: 50px;
+} 
+
